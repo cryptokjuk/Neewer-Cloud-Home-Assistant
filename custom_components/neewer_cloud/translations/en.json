@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Neewer Cloud",
+        "description": "Sign in with the same account you use in the NEEWER Home app.",
+        "data": {
+          "account": "Email or phone",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Neewer rejected that account or password.",
+      "cannot_connect": "Could not reach Neewer's cloud."
+    },
+    "abort": {
+      "already_configured": "This Neewer account is already configured."
+    }
+  }
+}
